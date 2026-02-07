@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+.container{
+   background-color: #232021;
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+ 
+    
+}
+.profile .name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.profile img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+.profile .location{
+       text-align: center;
+    color: yellow;
+  
+}
+.profile .description{
+text-align: center;
+}
+.links{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       background-color: #232021;
+}
+.links a{
+    text-align: center;
+       background-color: #80808054;
+    font-weight: bold;
+    width: 200px;
+    height: 28px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+
+}
+.links a:hover{
+    background-color: yellow;
+    color:black;
+}
+.profile{
+        position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile p{
+    width: 200px;
+    height: 28px;
+}
